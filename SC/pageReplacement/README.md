@@ -1,6 +1,6 @@
 # Simulador de algorítimos de substituição de página
 ---
-**autores:** Felipe Ferreira e Guilherme Alves
+**Autores:** Felipe Ferreira e Guilherme Alves
   
   
   ### Requisitos:
@@ -15,7 +15,7 @@
 ### Comandos:
 
 ##### sintaxe:
-pageRaplacement.py [-h] [-alg A] [-cache C] DOCUMENTO
+pageReplacement.py [-h] [-alg A] [-cache C] DOCUMENTO
 
 ##### Argumentos obrigatórios:
   DOCUMENTO  --  Arquivo **.TXT* contendo as páginas da mémoria em formato alfanumérico.
@@ -23,7 +23,7 @@ pageRaplacement.py [-h] [-alg A] [-cache C] DOCUMENTO
 ##### Argumentos opcionais:  
   -h, --help --------- Página de ajuda  
   -alg A ------------- Algoritmo a ser executado (fifo, lru, random) (default = random)
-  -cache C ----------- Numero de quadros do cache (default = 20 porcento do tamanho do vetor de paginas)
+  -cache C ----------- Número de quadros do cache (default = 20 porcento do tamanho do vetor de páginas)
   
 ### Formatação do documento de entrada
 O documento deve armazenar 1 posição de memória por linha.  
